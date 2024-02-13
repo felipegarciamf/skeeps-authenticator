@@ -1,10 +1,10 @@
-package br.com.skeeps.authenticator.demo;
+package br.com.skeeps.authenticator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class SkeepsAuthenticatorApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package br.com.skeeps.authenticator.demo;
+package br.com.skeeps.authenticator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.TestConfiguration;
@@ -17,7 +17,7 @@ public class TestDemoApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.from(DemoApplication::main).with(TestDemoApplication.class).run(args);
+		SpringApplication.from(SkeepsAuthenticatorApplication::main).with(TestDemoApplication.class).run(args);
 	}
 
 }
