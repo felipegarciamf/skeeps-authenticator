@@ -22,7 +22,7 @@ class AutenticacaoUsuarioServiceImpl implements IAutenticacaoUsuarioService {
 
     @Override
     public void autenticar(String email, String senha) {
-        Optional<Usuario> usuarioOptional = this.usuarioRepository.findByEmailAndBySenha(email, senha);
+        Optional<Usuario> usuarioOptional = this.usuarioRepository.findByEmailAndSenha(email, senha);
         if(usuarioOptional.isEmpty()){
             throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Usuário ou senha inválidos");
         }
