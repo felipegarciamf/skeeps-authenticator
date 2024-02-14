@@ -1,0 +1,9 @@
+br/com/skeeps/authenticator/infra/repository/UsuarioRepository.class
+br/com/skeeps/authenticator/application/controller/AutenticacaoController.class
+br/com/skeeps/authenticator/application/config/security/SecurityConfig.class
+br/com/skeeps/authenticator/application/config/security/AudienceValidator.class
+br/com/skeeps/authenticator/application/service/AutenticacaoUsuarioServiceImpl.class
+br/com/skeeps/authenticator/SkeepsAuthenticatorApplication.class
+br/com/skeeps/authenticator/domain/service/IAutenticacaoUsuarioService.class
+br/com/skeeps/authenticator/domain/entity/Usuario.class
+br/com/skeeps/authenticator/application/dto/AutenticacaoRequest.class
