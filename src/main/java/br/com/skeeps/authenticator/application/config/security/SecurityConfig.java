@@ -13,8 +13,6 @@ import org.springframework.web.cors.*;
 
 import java.util.List;
 
-import static org.springframework.security.oauth2.server.authorization.config.annotation.web.configuration.OAuth2AuthorizationServerConfiguration.jwtDecoder;
-
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
