@@ -1,1 +1,8 @@
-/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/demo/DemoApplication.java
+/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/SkeepsAuthenticatorApplication.java
+/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/application/config/security/SecurityConfig.java
+/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/application/controller/AutenticacaoController.java
+/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/application/dto/AutenticacaoRequest.java
+/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/application/service/AutenticacaoUsuarioServiceImpl.java
+/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/domain/entity/Usuario.java
+/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/domain/service/IAutenticacaoUsuarioService.java
+/Users/mac/Documents/Projetos/skeeps-authenticator/src/main/java/br/com/skeeps/authenticator/infra/repository/UsuarioRepository.java
