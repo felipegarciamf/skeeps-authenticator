@@ -6,7 +6,7 @@ import org.springframework.util.Assert;
 
 import java.util.List;
 
-public class AudienceValidator implements OAuth2TokenValidator<Jwt> {
+class AudienceValidator implements OAuth2TokenValidator<Jwt> {
     private final String audience;
 
     AudienceValidator(String audience) {
